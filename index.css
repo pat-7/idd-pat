@@ -60,7 +60,7 @@
 }
 
 .btn:hover {
-	background: #F2D64B;	
+	background: rgb(255, 255, 255);	
 }
 
 .menu-wrap {
@@ -209,7 +209,7 @@ body {
 }
 
 h3 {
-	color: #F2D64B;
+	color: rgb(255, 255, 255);
 }
 .box-image {
 	width: 250px;
@@ -238,7 +238,7 @@ h3 {
 	box-shadow:0 0 1em rgba(0,0,0,0.4);
 }
 .button:hover {
-	background: #F2D64B;
+	background: rgb(255, 255, 255);
 }
 body {
 	background-color: #4177A6;
