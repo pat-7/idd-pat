@@ -3,7 +3,7 @@
 	--overlay-color:rgba(24, 39, 51, 0.58);
 	--overlay-colortwo:rgba(24, 39, 51, 0.90);
 	--menu-speed: 0.75s;
-	--secondary-color: rgba(242, 214, 75,0.75);
+	--secondary-color: rgb(0, 0, 0);
 }
 /*welcome header*/
 .container {
@@ -60,7 +60,7 @@
 }
 
 .btn:hover {
-	background: #F2D64B;	
+	background: rgb(255, 255, 255);	
 }
 
 .menu-wrap {
@@ -79,33 +79,6 @@
 	height: 50px;
 	opacity: 0;
 }
-
-.menu-wrap .hamburger {
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 1;
-	width: 60px;
-	height: 60px;
-	padding: 1rem;
-	background: var(--overlay-color);
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-/*hamburger icon*/
-.menu-wrap .hamburger > div {
-	position: relative;
-	width: 100%;
-	height: 2px;
-	background-color: #fff;
-	display: flex;
-	align-self: center;
-	justify-content: center;
-	transition: all 0.4s ease;
-}
-
 .menu-wrap .hamburger > div:before,
 .menu-wrap .hamburger > div:after {
 	content: '';
@@ -116,16 +89,6 @@
 	height: 2px;
 	background: inherit;
 }
-
-.menu-wrap .hamburger > div:after{
-	top: 10px;
-}
-
-/*hamburger Animation*/
-.menu-wrap .toggler:checked + .hamburger > div {
-	transform: rotate(135deg);
-}
-
 .menu-wrap .toggler:checked + .hamburger > div:before,
 .menu-wrap .toggler:checked + .hamburger > div:after {
 	top: 0;
@@ -227,9 +190,9 @@
 	position: relative;
 }
 body {
-	background-color: #4177A6;
+	background-color: rgb(255, 255, 255);
 	color: #FCFAFF;
-	font-family: 'Poppins', sans-serif;
+	font-family: Arial, Helvetica, sans-serif
 }
 .box-container {
 	background-color:#000;
@@ -243,7 +206,7 @@ body {
 }
 
 h3 {
-	color: #F2D64B;
+	color: rgb(255, 255, 255);
 }
 .box-image {
 	width: 250px;
@@ -272,37 +235,12 @@ h3 {
 	box-shadow:0 0 1em rgba(0,0,0,0.4);
 }
 .button:hover {
-	background: #F2D64B;
+	background: rgb(255, 255, 255);
 }
 body {
-	background-color: #4177A6;
-	color: #FCFAFF;
-	font-family: 'Poppins', sans-serif;
-}
-.button {
-	background-color: #F25050;
-	border: none;
-	color: white;
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	margin: 4px 2px;
-	cursor: pointer;
-	position: relative;
-    min-height: 1px;
-    padding-left: 4px;
-	padding-right: 4px;
-	border-radius: 4px;
-  }
-  .educatorImg {
-    display: block;
-    
-    position: relative;
-    z-index: 100;
-    max-width: 100%;
-    border-radius: .28571429rem;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	font-family: Arial, Helvetica, sans-serif
 }
 .text-block {
 	padding: 0;
@@ -324,8 +262,8 @@ body {
 /*Footer*/
 
 #footer {
-	background-color: #000;
-	padding: 50px 0;
+	background-color: rgb(255, 255, 255);
+	padding: 20px 0;
 	text-align: center;
   }
   .column {
@@ -377,10 +315,4 @@ body {
 		justify-content: center;
 		text-align: none;
 	}
-
-
-
-
-
-
 	}
