@@ -90,13 +90,6 @@
 	background: inherit;
 }
 
-.menu-wrap .hamburger > div:after{
-	top: 10px;
-}
-
-/*hamburger Animation*/
-.menu-wrap .toggler:checked + .hamburger > div {
-	transform: rotate(135deg);
 }
 
 .menu-wrap .toggler:checked + .hamburger > div:before,
@@ -269,13 +262,7 @@ body {
 	padding-right: 4px;
 	border-radius: 4px;
   }
-  .educatorImg {
-    display: block;
-    
-    position: relative;
-    z-index: 100;
-    max-width: 100%;
-    border-radius: .28571429rem;
+
 }
 .text-block {
 	padding: 0;
