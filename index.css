@@ -3,7 +3,7 @@
 	--overlay-color:rgba(24, 39, 51, 0.58);
 	--overlay-colortwo:rgba(24, 39, 51, 0.90);
 	--menu-speed: 0.75s;
-	--secondary-color: rgba(242, 214, 75,0.75);
+	--secondary-color: rgb(0, 0, 0);
 }
 /*welcome header*/
 .container {
